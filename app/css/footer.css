@@ -1,0 +1,28 @@
+/*==========  section footer ==========*/
+footer {
+  background: #07122C;
+  color: #fff; }
+  footer .menu {
+    margin: 0 0 0 auto; }
+    footer .menu li a {
+      color: #fff; }
+      footer .menu li a:hover {
+        color: #8E8E8E; }
+
+.footer-bottom {
+  border-top: 1px solid #2A3652;
+  padding: 24px 0;
+  font-size: 14px; }
+
+.footer-top {
+  padding: 60px 0; }
+
+.link {
+  color: #fff;
+  margin: 0 0 0 24px; }
+  .link:hover {
+    color: #8E8E8E; }
+
+/*==========  section footer end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/

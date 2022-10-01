@@ -1,0 +1,423 @@
+/*==========  section home ==========*/
+.home {
+  color: #fff;
+  text-align: center;
+  padding: 120px 0 0;
+  background: linear-gradient(241.63deg, #1C35BD 5.47%, #13268A 96.59%);
+  position: relative;
+  z-index: 1; }
+  .home:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    top: 40px;
+    width: 952px;
+    height: 573px;
+    background: url("../img/decor-home.svg") no-repeat center;
+      background-size: 100%;
+    z-index: -1; }
+  .home .btn {
+    margin: 0 auto; }
+  .home .box-text {
+    margin: 20px auto;
+    max-width: 530px; }
+
+.home-content {
+  max-width: 613px;
+  width: 100%;
+  margin: 0 auto 120px; }
+
+.home-image {
+  position: relative;
+  padding: 267px 0 0;
+  margin: -265px 0 -434px;
+  z-index: 1; }
+  .home-image__bg {
+    position: relative;
+    z-index: 1; }
+
+.decor {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.decor1 {
+  left: -110px;
+  top: 32px; }
+
+.decor2 {
+  right: -110px;
+  top: 0; }
+
+/*==========  section home end ==========*/
+/*==========  section advantages ==========*/
+.advantages {
+  padding: 554px 0 120px; }
+
+.advantages-box {
+  width: 100%;
+  margin: 0 0 16px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F6F6FE));
+  background: linear-gradient(180deg, #FFFFFF 0%, #F6F6FE 100%);
+  -webkit-box-shadow: 0px 4px 20px rgba(159, 171, 234, 0.28);
+          box-shadow: 0px 4px 20px rgba(159, 171, 234, 0.28);
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 164px; }
+  .advantages-box__icon {
+    background: linear-gradient(214.48deg, #D3DAFF 8.85%, #98A8FF 87.56%);
+    width: 46px;
+    height: 46px;
+    margin: 0 0 auto;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .advantages-box:last-child {
+    margin: 0; }
+  .advantages-box p {
+    max-width: 265px; }
+
+.advantages-box-max {
+  height: 284px; }
+
+/*==========  section advantages end  ==========*/
+/*==========  section payment-methods ==========*/
+.payment-methods {
+  padding: 48px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden; }
+  .payment-methods:before {
+    content: '';
+    position: absolute;
+    width: 1281px;
+    height: 563px;
+    background: url("../img/decor-bg1.svg") no-repeat center;
+      background-size: 100%;
+    top: 140px;
+    right: 0; }
+  .payment-methods h2 {
+    margin: 0 auto 30px; }
+  .payment-methods .tabs__content {
+    max-width: 880px;
+    margin: 0 auto; }
+
+.payment-methods-card {
+  width: 100%;
+  margin: 0 0 16px;
+  background: #fff;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 58px 10px 24px;
+  font-weight: 500;
+  line-height: 24px; }
+  .payment-methods-card__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto 24px; }
+  .payment-methods-card span {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+    margin: 4px auto 0; }
+  .payment-methods-card:last-child {
+    margin: 0; }
+
+/*==========  section payment-methods end  ==========*/
+/*==========  section payments-business ==========*/
+.payments-business {
+  margin: 100px 0; }
+  .payments-business__image {
+    min-width: 1166px;
+    max-width: 1166px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 -617px -293px 0; }
+  .payments-business__content {
+    max-width: 379px;
+    padding: 0 50px 0 0;
+    width: 100%; }
+
+.payments-business-wrapper {
+  color: #fff;
+  background: linear-gradient(241.63deg, #1C35BD 5.47%, #13268A 96.59%);
+  border-radius: 20px;
+  padding: 48px 0 48px 48px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  z-index: 1; }
+
+.list-check {
+  font-weight: bold; }
+  .list-check li {
+    margin: 0 0 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .list-check li:last-child {
+      margin: 0; }
+    .list-check li:before {
+      content: '';
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      border-radius: 50%;
+      background: #fff url("../img/check.svg") no-repeat center;
+        background-size: 16px;
+      width: 38px;
+      height: 38px;
+      min-width: 38px;
+      margin: 0 16px 0 0; }
+
+/*==========  section payments-business end  ==========*/
+/*==========  section connect ==========*/
+.connect-box {
+  height: 206px; }
+  .connect-box p {
+    max-width: none; }
+
+/*==========  section connect end  ==========*/
+/*==========  section type-connect ==========*/
+.type-connect {
+  margin: 104px 0; }
+  .type-connect h2 {
+    max-width: 480px; }
+
+/*==========  section type-connect end  ==========*/
+/*==========  section help-settings ==========*/
+.help-settings__image {
+  max-width: 332px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 132px -48px 0; }
+
+.help-settings-wrapper {
+  padding: 48px; }
+  .help-settings-wrapper:before {
+    content: '';
+    position: absolute;
+    width: 857px;
+    height: 394px;
+    background: url("../img/decor-bg2.svg") no-repeat center;
+      background-size: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1; }
+  .help-settings-wrapper .payments-business__content {
+    max-width: 570px;
+    padding: 0;
+    margin: 0 auto 0 0; }
+    .help-settings-wrapper .payments-business__content ul {
+      max-width: 460px; }
+
+/*==========  section help-settings end  ==========*/
+/*==========  section work-payments ==========*/
+.work-payments {
+  margin: 120px 0;
+  padding: 48px 0; }
+
+.work-payments-description {
+  text-align: center;
+  color: #D3DAFF;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 48px auto 0;
+  max-width: 695px;
+  width: 100%; }
+
+.work-payments-wrapper {
+  width: 100%; }
+
+.work-payments-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.work-payments-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 33px 10px;
+  font-weight: bold;
+  height: 140px;
+  background: #fff;
+  border-radius: 16px;
+  max-width: 314px;
+  width: 100%;
+  margin: 0 8px; }
+  .work-payments-item__icon {
+    margin: 0 auto 12px;
+    width: 38px;
+    height: 38px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+/*==========  section work-payments end  ==========*/
+/*==========  section blog ==========*/
+.blog {
+  margin: 0 0 114px; }
+
+.blog-card {
+  width: 100%;
+  margin: 0 0 32px;
+  max-width: 403px; }
+  .blog-card__image {
+    width: 100%;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0 0 24px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .blog-card__body {
+    width: 100%; }
+  .blog-card__title {
+    margin: 16px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; }
+    .blog-card__title:hover {
+      color: #142893; }
+  .blog-card .date {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500; }
+  .blog-card .btn {
+    margin: 24px 0 0; }
+
+.blog-card.m-auto {
+  margin: 0 auto 32px; }
+
+.blog-card.ml-auto {
+  margin: 0 0 32px auto; }
+
+/*==========  section blog end  ==========*/
+/*==========  section business-company ==========*/
+.business-company {
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(256.38deg, #132654 14.4%, #0F1728 95.61%);
+  padding: 100px 0; }
+  .business-company .box-text {
+    margin: 24px auto 40px; }
+  .business-company h2 {
+    margin: 0 auto;
+    font-size: 46px; }
+  .business-company .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+/*==========  section business-company end  ==========*/
+/*==========  section work-payments ==========*/
+/*==========  section work-payments end  ==========*/
+/*==========  section  ==========*/
+/*==========  section end  ==========*/
