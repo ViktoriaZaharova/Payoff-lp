@@ -6,3 +6,7 @@ $('ul.tabs__caption').on('click', 'li:not(.active)', function () {
 });
 
 
+$('.btn-burger').on('click', function () {
+   $(this).toggleClass('open');
+   $('.header-wrapper').fadeToggle();
+});

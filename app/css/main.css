@@ -27,7 +27,9 @@
 .home-content {
   max-width: 613px;
   width: 100%;
-  margin: 0 auto 120px; }
+  margin: 0 auto 120px;
+  position: relative;
+  z-index: 2; }
 
 .home-image {
   position: relative;
@@ -300,10 +302,21 @@
   width: 100%; }
 
 .work-payments-wrapper {
-  width: 100%; }
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .work-payments-list {
   width: 100%;
+  max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,7 +327,82 @@
       -ms-flex-pack: center;
           justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  margin: 0 0 143px;
+  position: relative;
+  z-index: 1; }
+  .work-payments-list:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -32px;
+    height: 1px;
+    width: calc(100% - 344px);
+    border: 1px dashed #4F598B;
+    z-index: -1;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); }
+  .work-payments-list:last-child {
+    margin: 0; }
+    .work-payments-list:last-child li .line-dots {
+      height: 32px;
+      top: -32px;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0); }
+    .work-payments-list:last-child:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: -103px;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0);
+      height: 63px;
+      width: 1px;
+      border: 1px dashed #4F598B;
+      z-index: -1; }
+  .work-payments-list:nth-child(2):after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -32px;
+    height: 1px;
+    width: calc(100% - 344px);
+    border: 1px dashed #4F598B;
+    z-index: -1;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); }
+  .work-payments-list:nth-child(2) li:nth-child(2) .work-payments-item:before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #4F598B;
+      border-radius: 50%;
+    background: #0D1A38;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); }
+  .work-payments-list:first-child {
+    margin: 0 0 103px; }
+    .work-payments-list:first-child:before {
+      display: none; }
+    .work-payments-list:first-child li .line-dots {
+      bottom: -63px;
+      height: 63px;
+      top: auto;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0); }
+    .work-payments-list:first-child .work-payments-item:after {
+      display: none; }
+  .work-payments-list li {
+    position: relative;
+    margin: 0 8px;
+    width: 314px; }
+    .work-payments-list li:first-child {
+      margin-left: 0; }
+    .work-payments-list li:last-child {
+      margin-right: 0; }
 
 .work-payments-item {
   display: -webkit-box;
@@ -330,11 +418,30 @@
   padding: 33px 10px;
   font-weight: bold;
   height: 140px;
-  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F1F3FF), to(#D3DAFF));
+  background: linear-gradient(180deg, #F1F3FF 0%, #D3DAFF 100%);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
   border-radius: 16px;
   max-width: 314px;
   width: 100%;
-  margin: 0 8px; }
+  position: relative;
+  z-index: 1;
+  cursor: pointer; }
+  .work-payments-item:after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #4F598B;
+      border-radius: 50%;
+    background: #0D1A38;
+    top: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); }
+  .work-payments-item:hover {
+    background: #fff; }
   .work-payments-item__icon {
     margin: 0 auto 12px;
     width: 38px;
@@ -348,6 +455,17 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+
+.line-dots {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px dashed #4F598B;
+  width: 1px;
+  height: 204px;
+  z-index: -1; }
 
 /*==========  section work-payments end  ==========*/
 /*==========  section blog ==========*/
@@ -417,7 +535,3 @@
             align-items: center; }
 
 /*==========  section business-company end  ==========*/
-/*==========  section work-payments ==========*/
-/*==========  section work-payments end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/

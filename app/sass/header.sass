@@ -7,6 +7,13 @@ header
   padding: 18px 0
   .container
     align-items: center
+    flex-wrap: nowrap
+
+.header-wrapper
+  width: 100%
+  display: flex
+  align-items: center
+  flex-wrap: wrap
 
 .logo
   max-width: 135px
@@ -40,12 +47,23 @@ header
   align-items: center
   padding: 6px 3px
   margin: 0 80px 0 0
+  position: relative
   span
     width: 100%
     height: 2px
     background: #000
     display: block
     border-radius: 4px
+  &.open
+    span
+      position: absolute
+      top: 10px
+      &:nth-child(2)
+        display: none
+      &:first-child
+        transform: rotate(45deg)
+      &:last-child
+        transform: rotate(135deg)
 /*==========  section header end  ==========*/
 
 
