@@ -91,6 +91,8 @@ header {
       -webkit-transform: rotate(135deg);
               transform: rotate(135deg); }
 
+.header {
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.04); }
+
 /*==========  section header end  ==========*/
-/*==========  section  ==========*/
-/*==========  section end  ==========*/

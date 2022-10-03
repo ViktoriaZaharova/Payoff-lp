@@ -359,9 +359,6 @@
     top: -40px
     left: 50%
     transform: translate(-50%,0)
-  &:hover
-    background: #fff
-
   &__icon
     margin: 0 auto 12px
     width: 38px
@@ -395,7 +392,12 @@
     border-radius: 16px
     margin: 0 0 24px
     height: 220px
+    overflow: hidden
     @include d-flex
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
   &__body
     width: 100%
   &__title
@@ -433,7 +435,134 @@
   .container
     flex-direction: column
     align-items: center
-
-
 /*==========  section business-company end  ==========*/
+
+/*==========  section blog ==========*/
+.home-blog
+  background: linear-gradient(256.38deg, #132654 14.4%, #0F1728 95.61%)
+  color: #fff
+  padding: 80px 0
+  .container
+    flex-direction: column
+    align-items: center
+    text-align: center
+  .date
+    margin: 0 auto
+    font-size: 14px
+    font-weight: 500
+    color: #D3DAFF
+  &__image
+    @include d-flex
+    max-width: 968px
+    width: 100%
+    margin: 0 auto 40px
+  h2
+    max-width: 800px
+    width: 100%
+    margin: 16px auto 20px
+  .box-text
+    margin: 0 auto 24px
+    line-height: 24px
+    max-width: 563px
+
+.blog-section
+  margin: 80px 0 20px
+  .row
+    margin: 0 -20px
+  .col-5
+    padding: 0 20px
+  .blog-card
+    margin: 0 0 60px
+    max-width: 464px
+  .blog-card__image
+    height: 274px
+  .w-100
+    max-width: 960px
+    margin: 0 auto
+/*==========  section blog end  ==========*/
+
+
+/*==========  section article  ==========*/
+.article
+  background: #fff
+  padding: 80px 0 48px
+  .date
+    margin: 0 0 16px
+    color: #646464
+    font-size: 14px
+    font-weight: 500
+  h2
+    margin: 0
+  .container
+    flex-direction: column
+    align-items: center
+  h3
+    margin: 0 0 20px
+    font-size: 24px
+    font-weight: bold
+    line-height: 32px
+  h4
+    margin: 0 0 16px
+    font-size: 18px
+    font-weight: 600
+  .box-text
+    line-height: 32px
+    font-size: 18px
+    p
+      margin: 0 0 16px
+      &:last-child
+        margin: 0
+  ul
+    margin: 16px 0
+    li
+      margin: 0 0 8px
+      &:last-child
+        margin: 0
+
+
+.article-content
+  max-width: 712px
+  width: 100%
+  margin: 0 auto
+
+.article-image
+  max-width: 800px
+  width: 100%
+  margin: 48px auto
+  border-radius: 20px
+  @include d-flex
+  img
+    width: 100%
+
+.article-item
+  margin: 0 0 48px
+  &:last-child
+    margin: 0
+
+.article-footer
+  width: 100%
+  max-width: 712px
+  margin: 48px 0 0
+  padding: 24px 0
+  display: flex
+  align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+  border:
+    top: 1px solid #EAEAEA
+    bottom: 1px solid #EAEAEA
+  .btn
+    padding: 9px 16px
+    min-height: 36px
+    font-size: 12px
+    font-weight: 500
+    line-height: normal
+  .list-social
+    margin: 0
+    li
+      margin: 0 16px 0 0
+      &:last-child
+        margin: 0
+
+/*==========  section article end  ==========*/
 
